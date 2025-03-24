@@ -17,6 +17,12 @@ let package = Package(
             path: "Sources/_Dummy"
         ),
         //AUTO_GENERATE_TARGETS_BEGIN//
+
+        .binaryTarget(
+            name: "Libopus",
+            url: "https://github.com/onepiece-studio/libopus-build/releases/download/1.5.2/Libopus.xcframework.zip",
+            checksum: "e92c45262a65503532345990488217bdeef18bc461fa2cf3f0f314c9353889d5"
+        ),
         //AUTO_GENERATE_TARGETS_END//
     ]
 )
